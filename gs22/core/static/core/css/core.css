@@ -1,0 +1,27 @@
+.st-font {
+    font-family: 'Courgette', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Satisfy', cursive;
+}
+
+.st-fonts {
+    font-family: 'Courgette', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Satisfy', cursive;
+}
+
+.container-fluid {
+    min-height: 100%;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+.primary-color{
+
+    background-color: rgb(53, 80, 139);
+}
