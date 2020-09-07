@@ -25,3 +25,48 @@ body {
 
     background-color: rgb(53, 80, 139);
 }
+
+.a-colour{
+
+    color: rgb(128, 255, 0);
+}
+
+.b-colour{
+
+    color: rgb(0, 204, 255);
+}
+
+.c-colour{
+
+    color: rgb(251, 255, 0);
+}
+
+.d-colour{
+
+    color: rgb(252, 0, 252);
+}
+
+.e-colour{
+
+    color: rgb(211, 105, 18);
+}
+
+.f-colour{
+
+    color: rgb(134, 0, 223);
+}
+
+.g-colour{
+
+    color: rgb(216, 14, 14);
+}
+
+.h-colour{
+
+    color: rgb(228, 199, 39);
+}
+
+.i-colour{
+
+    color: rgb(132, 243, 21);
+}
