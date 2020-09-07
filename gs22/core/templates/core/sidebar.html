@@ -1,15 +1,14 @@
 {% load static %}
-<div class="border-right border-danger h-100">
+<div class="border-right border-warning h-100">
     <div class="text-center">
         <img src="{% static 'core/images/projectimg.jpeg' %}" alt="" class="img-fluid m-2" width="60px">
         <h5 class="text-warning mt-3 st-font">Akhil Sharma</h5>
     </div>
     <hr class="border-light">
     <nav class="nav flex-column text text-center">
-       
-        <button type="button" class="btn btn-primary">Home</button>
-        <button type="button" class="btn btn-secondary">Service</button>
-        <button type="button" class="btn btn-success">Skill</button>
-        <button type="button" class="btn btn-danger">Contact</button>
+        <a class="btn btn-success" href="{% url 'home' %}" role="button" class="nav-link">Home</a>
+        <a class="btn btn-info" href="{% url 'services' %}" role= class="nav-link">services</a>
+        <a class="btn btn-danger" href="{% url 'skill' %}"role="button" class="nav-link">Skill</a>
+        <a class="btn btn-primary" href="{% url 'contact' %}"role="button" class="nav-link">Contact</a>
     </nav>
 </div>
